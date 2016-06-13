@@ -1,0 +1,66 @@
+body{
+  background-color: #337ab7;
+}
+.search-section{
+  margin-top :15%;
+  margin-left:15%;
+  margin-right:15%;
+  color: #F0F0F0;
+  text-align:center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size : 24px;
+}
+.search-input{
+  padding-top:2%;
+  padding-bottom :2%;
+}
+.search-input > .search-label:hover{
+  cursor:pointer;
+}
+
+#searchInputId{
+  width : 300px;
+}
+#searchInputClearId{
+  position: absolute;
+  right :5px;
+  top : 0;
+  bottom : 0;
+  height :20px;
+  margin : auto;
+  font-size :20px;
+  cursor : pointer;
+  color :#337ab7;
+}
+
+.search-results ul li{
+  margin:20px;
+  padding: 35px;
+  background-color:lightgray;  
+  border: 2px solid white; 
+  border-radius : 5px;
+}
+.search-results ul li:hover{
+  border-left: 5px solid orange;
+  cursor:pointer;
+}
+.search-results ul li a{
+  text-decoration:none;
+}
+
+.search-results ul li span{
+  color : #333;
+  display : block;  
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.search-results ul li span:first-child{
+  text-align:center;
+  margin-bottom : 10px;
+  font-size : 28px;
+}
+
+.search-results ul li span + span{
+  text-align : left;
+  font-size : 16px;
+}
